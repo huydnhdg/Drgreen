@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@Page.Title</title>
+    <link rel="stylesheet" href="~/Content/font-awesome.min.css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <link href="~/Content/StyleSheet1.css" rel="stylesheet" />
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   
+    <link href="~/Content/animate.css" rel="stylesheet" />
+    <style>
+        .wow:first-child {
+            visibility: hidden;
+        }
+    </style>
+
+</head>
+<body>
+
+    <nav>
+        <div class="container logo-header">
+            <img src="~/Images/logo.png" alt="" style="width:15%;" />
+        </div>
+        <header class="header-mobile">
+            <div class="container">
+                <a href="#home" class="logo">
+                    <img src="~/Images/logo.png" alt="" style="width:20%;" />
+                </a>
+                <nav class="nav-collapse">
+                    <ul>
+                        <li class="menu-item active"><a href="#">Home</a></li>
+                        <li class="menu-item"><a href="~/#thoigianapdung">Thời gian áp dụng</a></li>
+                        <li class="menu-item"><a href="~/#tichdiem">Tích điểm</a></li>
+                        <li class="menu-item"><a href="~/#tracuu">Tra cứu</a></li>
+                        <li class="menu-item"><a href="~/#cachnhanqua">Cách nhận quà</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <img src="~/Images/Banner/quà liền tay.jpg" alt="" style="width: 100%;" />
+            </div>
+        </div>
+    </nav>
+
+    <div class="body-content">
+        @RenderBody()
+    </div>
+    <footer id="colophon" class="site-footer">
+        <div class="site-info">
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-sm-12 col-12">
+                        <div class="footer-content">
+
+                            <p class="footer-title">Liên kết nhanh</p>
+                            <p><a href="https://binhruamui.com/gioi-thieu/">Giới thiệu</a></p>
+                            <p><a href="https://binhruamui.com/chinh-sach-thanh-toan/">Chính sách thanh toán</a></p>
+                            <p><a href="https://binhruamui.com/chinh-sach-xu-ly-khieu-nai/">Chính sách khiếu nại</a></p>
+                            <p><a href="https://binhruamui.com/chinh-sach-van-chuyen-giao-nhan/">Chính sách vận chuyển</a></p>
+                            <p><a href="https://binhruamui.com/chinh-sach-bao-hanh-doi-tra/">Chính sách đổi trả và hoàn tiền</a></p>
+                            <p><a href="https://binhruamui.com/chinh-sach-bao-hanh/">Chính sách bảo hành</a></p>
+                            <p><a href="https://binhruamui.com/chinh-sach-kiem-hang/">Chính sách kiểm hàng</a></p>
+                            <p><a href="https://binhruamui.com/chinh-sach-bao-mat-thong-tin/">Chính sách bảo mật thông tin</a></p>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12 col-12">
+                        <div class="footer-content">
+
+                            <p class="footer-title">Sản phẩm</p>
+                            <p><a href="https://binhruamui.com/binh-rua-mui-cho-be/">Bình rửa mũi cho bé</a></p>
+                            <p><a href="https://binhruamui.com/binh-rua-mui-cho-nguoi-lon/">Bình rửa mũi người lớn</a></p>
+                            <p><a href="https://binhruamui.com/binh-rua-mui-xoang/">Bình rửa mũi xoang</a></p>
+                            <p>&nbsp;</p>
+                            <p><a href="http://online.gov.vn/Home/WebDetails/97810" target="_blank" rel="noopener"><img decoding="async" loading="lazy" class="alignnone size-full wp-image-1835" src="https://binhruamui.com/wp-content/uploads/2022/10/dathongbaobct_150.png" alt="" width="150" height="57"></a></p>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12 col-12">
+                        <div class="footer-content">
+
+                            <p class="footer-title">Liên Hệ</p>
+                            <p><strong>Công ty TNHH Dr Natural Việt Nam</strong></p>
+                            <p>GPKD số 0107416145 do Sở KH và ĐT TP Hà Nội cấp ngày 29/04/2016</p>
+                            <p>Địa chỉ: Số 30, ngách 61/40, ngõ 61, Bằng Liệt, P. Hoàng Liệt, Q. Hoàng Mai, Tp. Hà Nội.</p>
+                            <p>Hotline: 0936.002.006</p>
+                            <p>Mail: hungvu.greendoctor@gmail.com</p>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12 col-12">
+                        <div class="footer-content">
+
+                            <p class="footer-title">Fanpage</p>
+                            <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/BinhruamuiDrGreen/" data-tabs="" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=252534431981758&amp;container_width=300&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FBinhruamuiDrGreen%2F&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=&amp;width="><span style="vertical-align: bottom; width: 300px; height: 130px;"><iframe name="f2d940d15b6808" width="1000px" height="1000px" data-testid="fb:page Facebook Social Plugin" title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v12.0/plugins/page.php?adapt_container_width=true&amp;app_id=252534431981758&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df1f57d9d73fb5fc%26domain%3Dbinhruamui.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fbinhruamui.com%252Ff2c19931de9014%26relation%3Dparent.parent&amp;container_width=300&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FBinhruamuiDrGreen%2F&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=&amp;width=" style="border: none; visibility: visible; width: 300px; height: 130px;" class=""></iframe></span></div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <img alt="footer background" class="img-content img-footer-background" src="https://binhruamui.com/wp-content/uploads/2022/08/bg_footer.png">
+
+        </div><!-- .site-info -->
+
+        <div class="footer-image-wrapper text-center">
+            <div class="container">
+
+                <img alt="footer logo" class="img-footer-logo" src="https://binhruamui.com/wp-content/uploads/2022/08/logo.png">
+                <ul class="footer-certify-wrapper">
+
+                    <li><img alt="iso 13485" class="img-certify" src="https://binhruamui.com/wp-content/uploads/2022/08/iso-13485.png"></li>
+                    <li><img alt="iso 9001:2015" class="img-certify" src="https://binhruamui.com/wp-content/uploads/2022/08/iso-9001.png"></li>
+                </ul><!-- .footer-certify-wrapper -->
+
+            </div>
+        </div><!-- .footer-image-wrapper -->
+    </footer>
+    <div id="fb-root"></div>
+    <div id="button-contact-vr" class="">
+        <div id="gom-all-in-one">
+            <!-- v3 -->
+            <!-- contact form -->
+            <!-- end contact form -->
+            <!-- showroom -->
+            <!-- end showroom -->
+            <!-- contact -->
+            <!-- end contact -->
+            <!-- viber -->
+            <!-- end viber -->
+            <!-- zalo -->
+            <div id="zalo-vr" class="button-contact hidden">
+                <div class="phone-vr">
+                    <div class="phone-vr-circle-fill"></div>
+                    <div class="phone-vr-img-circle">
+                        <a target="_blank" href="https://zalo.me/0936002006">
+                            <img src="https://binhruamui.com/wp-content/plugins/button-contact-vr/img/zalo.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- end zalo -->
+            <!-- whatsapp -->
+            <!-- end whatsapp -->
+            <!-- Phone -->
+            <div id="phone-vr" class="button-contact">
+                <div class="phone-vr">
+                    <div class="phone-vr-circle-fill"></div>
+                    <div class="phone-vr-img-circle">
+                        <a href="tel:0936002006">
+                            <img src="https://binhruamui.com/wp-content/plugins/button-contact-vr/img/phone.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="phone-bar phone-bar-n">
+                <a href="tel:0936002006">
+                    <span class="text-phone">0936002006</span>
+                </a>
+            </div>
+
+            <!-- end phone -->
+        </div><!-- end v3 class gom-all-in-one -->
+
+
+    </div>
+
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v15.0" nonce="Sz0Mx4ZA"></script>
+    <script src="~/Scripts/wow.js"></script>
+    <script src='https://cdn.rawgit.com/viljamis/responsive-nav.js/master/responsive-nav.min.js'></script>
+    <script>
+        wow = new WOW(
+            {
+                boxClass: 'wow',      // animated element css class (default is wow)
+                animateClass: 'animated', // animation css class (default is animated)
+                offset: 0,          // distance to the element when triggering the animation (default is 0)
+                mobile: true,       // trigger animations on mobile devices (default is true)
+                live: true,       // act on asynchronously loaded content (default is true)
+                callback: function (box) {
+                    // the callback is fired every time an animation is started
+                    // the argument that is passed in is the DOM node being animated
+                },
+                scrollContainer: null // optional scroll container selector, otherwise use window
+            }
+        );
+        wow.init();
+    </script>
+    <script>
+        var nav = responsiveNav(".nav-collapse");
+    </script>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
